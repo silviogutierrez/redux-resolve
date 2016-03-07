@@ -1,0 +1,10 @@
+{
+  "name": "redux-resolve",
+  "dependencies": {},
+  "devDependencies": {},
+  "ambientDependencies": {
+    "react": "github:DefinitelyTyped/DefinitelyTyped/react/react.d.ts#945ebfe049964e429c2530971b9081f3c0f611df",
+    "react-redux": "github:DefinitelyTyped/DefinitelyTyped/react-redux/react-redux.d.ts#4169370da25a366a4e44090db92916bc0106b443",
+    "redux": "github:DefinitelyTyped/DefinitelyTyped/redux/redux.d.ts#a820bbdead70913f0c750802b367ed54cb99b442"
+  }
+}

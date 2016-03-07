@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "sourceMap": true,
+        "jsx": "react"
+    },
+    "files": [
+        "typings/browser.d.ts",
+        "src/redux-resolve.tsx"
+    ]
+}

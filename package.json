@@ -2,8 +2,11 @@
   "name": "redux-resolve",
   "version": "0.0.1",
   "description": "Higher-order component for redux with first class async support",
-  "main": "index.js",
+  "main": "dist/redux-resolve.js",
+  "typings": "dist/redux-resolve.d.ts",
   "scripts": {
+    "build": "typings install && tsc -d --outDir dist",
+    "build:watch": "npm run build -- -w",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +19,9 @@
     "url": "https://github.com/silviogutierrez/redux-resolve/issues"
   },
   "homepage": "https://github.com/silviogutierrez/redux-resolve#readme",
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^1.8.7",
+    "typings": "^0.6.10"
+  }
 }
